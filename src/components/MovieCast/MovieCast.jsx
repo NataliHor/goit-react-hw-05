@@ -1,11 +1,9 @@
 import { useEffect, useState } from "react";
 import { NavLink, useLocation, useParams } from "react-router-dom";
-import { IoManSharp, IoWomanSharp } from "react-icons/io5";
 import Loader from "../Loader/Loader";
 import ErrorMessage from "../ErrorMessage/ErrorMessage";
 import { getProductCast } from "../../tmdb-movies";
 import css from "./MovieCast.module.css";
-import { GoArrowLeft } from "react-icons/go";
 
 const MovieCast = () => {
   const { movieId } = useParams();

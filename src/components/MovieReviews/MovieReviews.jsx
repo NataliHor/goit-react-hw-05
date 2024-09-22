@@ -1,11 +1,9 @@
 import css from "./MovieReviews.module.css";
-import { FcCamcorderPro } from "react-icons/fc";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { getProductReviews } from "../../tmdb-movies";
 import Loader from "../Loader/Loader";
 import ErrorMessage from "../ErrorMessage/ErrorMessage";
-import { GoArrowLeft } from "react-icons/go";
 import { NavLink, useLocation } from "react-router-dom";
 
 const MovieReviews = () => {
