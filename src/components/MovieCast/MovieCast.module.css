@@ -1,0 +1,12 @@
+.ul {
+  list-style: none;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.img {
+  max-width: 380px;
+  max-height: 250px;
+}
